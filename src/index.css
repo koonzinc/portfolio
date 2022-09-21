@@ -21,16 +21,18 @@ code {
 button {
   background-color: #1C3879;
   color: #F9F5EB;
-  padding: 0.5rem 0.9rem;
+  padding: 0.6rem 0.9rem;
   border-radius: 5px;
-  font-size: 14px;
+  font-size: 18px;
   font-family: poppins;
 }
 
 p {
   font-family: poppins;
 }
-ul {
-  columns: 2;
-}
+
+
+
+
+
 
