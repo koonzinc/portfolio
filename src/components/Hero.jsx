@@ -14,9 +14,9 @@ const Hero = () => {
             <p className='text-gray-500 mt-4 text-[18px] max-w-[470px] md:max-w-[620px]'>
                 I'm a full stack developer specializing in front-end development
                 with an evolving skillset in User Interface Design. Currently, I'm focused
-                on building projects in preparation for my first full-time position.
+                on building <a href='#' className='text-[#1c3879] font-medium hover:text-[#607EAA] duration-500 ease-in-out cursor-pointer'>projects</a> in preparation for my first full-time position.
             </p>
-            <button className='w-[210px] py-5 mt-12 font-medium'>Check out my resume!</button>
+            <button className='w-[210px] py-5 mt-12 font-medium hover:bg-[#607EAA] duration-500 ease-in-out'>Check out my resume!</button>
         </div>
     </div>
   )
