@@ -9,6 +9,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #F9F5EB;
 }
 
 code {
@@ -17,6 +18,10 @@ code {
 }
 
 button {
-  background-color: transparent;
-  color: ;
+  background-color: #1C3879;
+  color: #F9F5EB;
+  padding: 0.5rem 0.9rem;
+  border-radius: 5px;
+  font-size: 14px;
 }
+
