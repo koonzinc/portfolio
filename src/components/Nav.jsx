@@ -10,7 +10,7 @@ const Nav = () => {
     };
 
     return (
-        <div className='flex justify-between items-center h-28 max-w-[15360px] mx-auto px-8'>
+        <div className='flex justify-between items-center h-28 max-w-[1900px] mx-auto px-8 subpixel-antialiased'>
             <h1 className='w-full text-4xl font-bold'>W</h1>
             <ul className='hidden md:flex items-center'>
                 <li className='pr-8 cursor-pointer text-[14px] font-medium hover:text-main duration-500 ease-in-out'><span className='text-main'>01.&nbsp;</span>About</li>
