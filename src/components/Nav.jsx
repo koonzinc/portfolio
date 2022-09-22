@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { HiMenuAlt3 } from 'react-icons/hi';
 import { GrClose } from 'react-icons/gr';
+import {FaLinkedin, FaGithub} from 'react-icons/fa';
+import {MdEmail} from 'react-icons/md';
 
 const Nav = () => {
     const [nav, setNav] = useState(false);
@@ -29,6 +31,13 @@ const Nav = () => {
                 <li className='mt-10 text-[18px] cursor-pointer font-medium hover:text-main duration-500 ease-in-out'><span className='text-main'>04.&nbsp;</span>Contact</li>
                 <li className='mt-10 text-[18px] cursor-pointer font-medium'><button href='#' className='font-medium py-3 px-10 hover:bg-[#607EAA] duration-500 ease-in-out'>Resume</button></li>
             </ul>
+            <div id='socialbar' className='hidden lg:block'>
+                <ul className='bottom-[170px] relative right-[15px]'>
+                    <li className='pb-5'><a href=""><FaGithub size={35} className='hover:text-[#607EAA] duration-500 ease-in-out'/></a></li>
+                    <li className='pb-5'><a href=""><FaLinkedin size={35} className='hover:text-[#607EAA] duration-500 ease-in-out'/></a></li>
+                    <li className='pb-5'><a href=""><MdEmail size={35} className='hover:text-[#607EAA] duration-500 ease-in-out'/></a></li>
+                </ul>
+            </div>
         </div>
     )
 }

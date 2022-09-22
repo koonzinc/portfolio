@@ -31,6 +31,17 @@ p {
   font-family: poppins;
 }
 
+#socialbar {
+  position: fixed;
+  width: 5px;
+  height: 100px;
+  background-color: black;
+  bottom: 0;
+  right: 50px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
 
 
 
