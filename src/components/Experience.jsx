@@ -3,8 +3,8 @@ import React from 'react'
 const Experience = () => {
     return (
         <div className='text-[#1C3879] subpixel-antialiased'>
-            <div className='flex flex-col h-screen w-[360px] md:w-full max-w-[700px] mx-auto mt-[300px] md:mt-[-240px]'>
-                <h1 className='text-2xl font-bold text-[#1B1C1E] mb-10'><span className='font-normal text-xl text-[#1c3879]'>02.&nbsp;&nbsp;</span>Technologies I Use<hr className='w-[320px] mt-2'></hr></h1>
+            <div className='flex flex-col h-full w-[360px] md:w-full max-w-[700px] mx-auto mt-[300px] md:mt-[-240px]'>
+                <h1 className='text-3xl font-medium text-[#1B1C1E] mb-10'><span className='font-normal text-xl text-[#1c3879]'>02.&nbsp;&nbsp;</span>Technologies I Use<hr className='w-[370px] mt-2'></hr></h1>
                 <p className='text-gray-500 mb-10'>
                     I have spent the majority of my time coding focused on frontend languages surrounding various projects and algorithm problems.
                     Once I felt as though I had a good grasp on the frontend I began honing my skills related to backend as well as more advanced frontend tools.<br /><br />
