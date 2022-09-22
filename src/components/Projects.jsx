@@ -4,58 +4,100 @@ import { FiGithub, FiExternalLink } from 'react-icons/fi';
 const Projects = () => {
     return (
         <div className='subpixel-antialiased'>
-            <div className='max-w-[1080px] px-14 w-full h-screen flex flex-col  mx-auto mt-[160px]'>
-                <div>
-                    <h1 className='text-3xl font-medium mt-24 text-[#1B1C1E] mb-10'><span className='font-normal text-xl text-[#1c3879]'>03.&nbsp;&nbsp;</span>Projects I've Built<hr className='w-[350px] mt-2'></hr></h1>
-                    <div className='relative'>
+            <div className='max-w-[1080px] px-14 w-full h-[248vh] flex flex-col justify-center mx-auto mt-[20px]'>
+                <h1 className='text-3xl font-medium text-[#1B1C1E] mb-10'><span className='font-normal text-xl text-[#1c3879]'>03.&nbsp;&nbsp;</span>Projects I've Built<hr className='w-[350px] mt-2'></hr></h1>
+                <div className='flex flex-row justify-between'>
+                    <div className='flex'>
                         <img className='rounded-md grayscale hover:grayscale-0 cursor-pointer' src="https://placeimg.com/580/360/any" alt="" />
-                        <p className='absolute right-0 bottom-[300px]'>Featured Project</p>
-                        <h2 className='absolute right-0 bottom-[260px] text-2xl font-medium'>Halcyon Theme</h2>
-                        <div className='absolute right-0 bottom-[120px] w-[500px] text-right bg-gray-300 rounded-lg items-center pt-5 pb-8 pl-12 pr-5 bg-[#1c3879] text-white '>
-                            <p className='text-sm'>A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.</p>
+                    </div>
+                    <div className='flex flex-col items-end relative justify-center'>
+                        <p className='absolute top-[30px] w-[180px] text-end'>Featured Project</p>
+                        <h1 className='absolute top-[65px] w-[220px] text-end text-2xl font-medium'>Halcyon Theme</h1>
+                        <div className='absolute w-[525px] right-0 text-end bg-[#1c3879] text-gray-100 pb-8 pt-6 pl-10 pr-6 rounded-md'>
+                            <p className='text-sm leading-6'>A minimal, dark blue them for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.</p>
                         </div>
-                        <ul className='absolute right-0 bottom-16 flex'>
-                            <li className='p-3 text-sm'>VS Code</li>
-                            <li className='p-3 text-sm'>Sublime Text</li>
-                            <li className='p-3 text-sm'>Atom</li>
-                            <li className='p-3 text-sm'>iTerm2</li>
+                        <ul className='absolute right-0 bottom-16 flex w-[500px] justify-end'>
+                            <li className='p-3 text-sm text-gray-600'>VS Code</li>
+                            <li className='p-3 text-sm text-gray-600'>VS Code</li>
+                            <li className='p-3 text-sm text-gray-600'>VS Code</li>
+                            <li className='p-3 text-sm text-gray-600'>VS Code</li>
                         </ul>
-                        <ul className='absolute right-0 bottom-4 flex'>
-                            <li className='p-3'><a href="#"><FiGithub size={30} /></a></li>
-                            <li className='p-3'><a href="#"><FiExternalLink size={30} /></a></li>
+                        <ul className='absolute flex bottom-2'>
+                            <li className='p-3 text-black'><a href="#"></a><FiGithub size={30} /></li>
+                            <li className='p-3 text-black'><a href="#"></a><FiExternalLink size={30} /></li>
                         </ul>
                     </div>
-                    <div className='relative'>
-                        <img className='rounded-md right-0 top-[100px] absolute grayscale hover:grayscale-0 cursor-pointer' src="https://placeimg.com/580/360/any" alt="" />
-                        <p className='absolute left-0 top-[150px]'>Featured Project</p>
-                        <h2 className='absolute left-0 top-[190px] text-2xl font-medium'>Halcyon Theme</h2>
-                        <div className='absolute left-0 top-[300px] w-[500px] text-right bg-gray-300 rounded-lg items-center pt-5 pb-8 pl-12 pr-5 bg-[#1c3879] text-white '>
-                            <p className='text-sm'>A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.</p>
-                        </div>
-                        <ul className='absolute left-0  flex'>
-                            <li className='p-3 text-sm'>VS Code</li>
-                            <li className='p-3 text-sm'>Sublime Text</li>
-                            <li className='p-3 text-sm'>Atom</li>
-                            <li className='p-3 text-sm'>iTerm2</li>
-                        </ul>
-                        <ul className='absolute left-0  flex'>
-                            <li className='p-3'><a href="#"><FiGithub size={30} /></a></li>
-                            <li className='p-3'><a href="#"><FiExternalLink size={30} /></a></li>
-                        </ul>
-
-                    </div>
-
-
-
-
-
-
-
-
-
-
-
                 </div>
+                <div className='flex flex-row justify-between mt-[100px]'>
+                    
+                    <div className='flex flex-col items-end relative justify-center'>
+                        <p className='absolute top-[30px] w-[180px] left-0 z-50'>Featured Project</p>
+                        <h1 className='absolute top-[65px] w-[220px] left-0 text-2xl font-medium z-50'>Halcyon Theme</h1>
+                        <div className='absolute w-[525px] left-0  bg-[#1c3879] text-gray-100 pb-8 pt-6 pl-10 pr-6 rounded-md z-50'>
+                            <p className='text-sm leading-6'>A minimal, dark blue them for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.</p>
+                        </div>
+                        <ul className='absolute left-0 bottom-16 flex w-[500px]  z-50'>
+                            <li className='p-3 text-sm text-gray-600'>VS Code</li>
+                            <li className='p-3 text-sm text-gray-600'>VS Code</li>
+                            <li className='p-3 text-sm text-gray-600'>VS Code</li>
+                            <li className='p-3 text-sm text-gray-600'>VS Code</li>
+                        </ul>
+                        <ul className='absolute flex bottom-2 left-0 z-50'>
+                            <li className='p-3 text-black'><a href="#"></a><FiGithub size={30} /></li>
+                            <li className='p-3 text-black'><a href="#"></a><FiExternalLink size={30} /></li>
+                        </ul>
+                    </div>
+                    <div className='flex'>
+                        <img className='rounded-md grayscale hover:grayscale-0 cursor-pointer' src="https://placeimg.com/580/360/any" alt="" />
+                    </div>
+                </div>
+                <div className='flex flex-row justify-between mt-[100px]'>
+                    <div className='flex'>
+                        <img className='rounded-md grayscale hover:grayscale-0 cursor-pointer' src="https://placeimg.com/580/360/any" alt="" />
+                    </div>
+                    <div className='flex flex-col items-end relative justify-center'>
+                        <p className='absolute top-[30px] w-[180px] text-end'>Featured Project</p>
+                        <h1 className='absolute top-[65px] w-[220px] text-end text-2xl font-medium'>Halcyon Theme</h1>
+                        <div className='absolute w-[525px] right-0 text-end bg-[#1c3879] text-gray-100 pb-8 pt-6 pl-10 pr-6 rounded-md'>
+                            <p className='text-sm leading-6'>A minimal, dark blue them for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.</p>
+                        </div>
+                        <ul className='absolute right-0 bottom-16 flex w-[500px] justify-end'>
+                            <li className='p-3 text-sm text-gray-600'>VS Code</li>
+                            <li className='p-3 text-sm text-gray-600'>VS Code</li>
+                            <li className='p-3 text-sm text-gray-600'>VS Code</li>
+                            <li className='p-3 text-sm text-gray-600'>VS Code</li>
+                        </ul>
+                        <ul className='absolute flex bottom-2'>
+                            <li className='p-3 text-black'><a href="#"></a><FiGithub size={30} /></li>
+                            <li className='p-3 text-black'><a href="#"></a><FiExternalLink size={30} /></li>
+                        </ul>
+                    </div>
+                </div>
+                <div className='flex flex-row justify-between mt-[100px]'>
+                    
+                    <div className='flex flex-col items-end relative justify-center'>
+                        <p className='absolute top-[30px] w-[180px] left-0 z-50'>Featured Project</p>
+                        <h1 className='absolute top-[65px] w-[220px] left-0 text-2xl font-medium z-50'>Halcyon Theme</h1>
+                        <div className='absolute w-[525px] left-0  bg-[#1c3879] text-gray-100 pb-8 pt-6 pl-10 pr-6 rounded-md z-50'>
+                            <p className='text-sm leading-6'>A minimal, dark blue them for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.</p>
+                        </div>
+                        <ul className='absolute left-0 bottom-16 flex w-[500px]  z-50'>
+                            <li className='p-3 text-sm text-gray-600'>VS Code</li>
+                            <li className='p-3 text-sm text-gray-600'>VS Code</li>
+                            <li className='p-3 text-sm text-gray-600'>VS Code</li>
+                            <li className='p-3 text-sm text-gray-600'>VS Code</li>
+                        </ul>
+                        <ul className='absolute flex bottom-2 left-0 z-50'>
+                            <li className='p-3 text-black'><a href="#"></a><FiGithub size={30} /></li>
+                            <li className='p-3 text-black'><a href="#"></a><FiExternalLink size={30} /></li>
+                        </ul>
+                    </div>
+                    <div className='flex'>
+                        <img className='rounded-md grayscale hover:grayscale-0 cursor-pointer' src="https://placeimg.com/580/360/any" alt="" />
+                    </div>
+                </div>
+
+
             </div>
         </div>
     )
