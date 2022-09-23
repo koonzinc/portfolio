@@ -31,18 +31,18 @@ const Projects = () => {
                 <div className='flex flex-row justify-between mt-[100px]'>
                     
                     <div className='flex flex-col items-end relative justify-center'>
-                        <p className='absolute top-[30px] w-[180px] left-0 z-50'>Featured Project</p>
-                        <h1 className='absolute top-[65px] w-[220px] left-0 text-2xl font-medium z-50'>Halcyon Theme</h1>
-                        <div className='absolute w-[525px] left-0  bg-[#1c3879] text-gray-100 pb-8 pt-6 pl-10 pr-6 rounded-md z-50'>
+                        <p className='absolute top-[30px] w-[180px] left-0 z-30'>Featured Project</p>
+                        <h1 className='absolute top-[65px] w-[220px] left-0 text-2xl font-medium z-30'>Halcyon Theme</h1>
+                        <div className='absolute w-[525px] left-0  bg-[#1c3879] text-gray-100 pb-8 pt-6 pl-10 pr-6 rounded-md z-30'>
                             <p className='text-sm leading-6'>A minimal, dark blue them for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.</p>
                         </div>
-                        <ul className='absolute left-0 bottom-16 flex w-[500px]  z-50'>
+                        <ul className='absolute left-0 bottom-16 flex w-[500px]  z-30'>
                             <li className='p-3 text-sm text-gray-600'>VS Code</li>
                             <li className='p-3 text-sm text-gray-600'>VS Code</li>
                             <li className='p-3 text-sm text-gray-600'>VS Code</li>
                             <li className='p-3 text-sm text-gray-600'>VS Code</li>
                         </ul>
-                        <ul className='absolute flex bottom-2 left-0 z-50'>
+                        <ul className='absolute flex bottom-2 left-0 z-30'>
                             <li className='p-3 text-black'><a href="#"></a><FiGithub size={30} /></li>
                             <li className='p-3 text-black'><a href="#"></a><FiExternalLink size={30} /></li>
                         </ul>
@@ -76,18 +76,18 @@ const Projects = () => {
                 <div className='flex flex-row justify-between mt-[100px]'>
                     
                     <div className='flex flex-col items-end relative justify-center'>
-                        <p className='absolute top-[30px] w-[180px] left-0 z-50'>Featured Project</p>
-                        <h1 className='absolute top-[65px] w-[220px] left-0 text-2xl font-medium z-50'>Halcyon Theme</h1>
-                        <div className='absolute w-[525px] left-0  bg-[#1c3879] text-gray-100 pb-8 pt-6 pl-10 pr-6 rounded-md z-50'>
+                        <p className='absolute top-[30px] w-[180px] left-0 z-30'>Featured Project</p>
+                        <h1 className='absolute top-[65px] w-[220px] left-0 text-2xl font-medium z-30'>Halcyon Theme</h1>
+                        <div className='absolute w-[525px] left-0  bg-[#1c3879] text-gray-100 pb-8 pt-6 pl-10 pr-6 rounded-md z-30'>
                             <p className='text-sm leading-6'>A minimal, dark blue them for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.</p>
                         </div>
-                        <ul className='absolute left-0 bottom-16 flex w-[500px]  z-50'>
+                        <ul className='absolute left-0 bottom-16 flex w-[500px]  z-30'>
                             <li className='p-3 text-sm text-gray-600'>VS Code</li>
                             <li className='p-3 text-sm text-gray-600'>VS Code</li>
                             <li className='p-3 text-sm text-gray-600'>VS Code</li>
                             <li className='p-3 text-sm text-gray-600'>VS Code</li>
                         </ul>
-                        <ul className='absolute flex bottom-2 left-0 z-50'>
+                        <ul className='absolute flex bottom-2 left-0 z-30'>
                             <li className='p-3 text-black'><a href="#"></a><FiGithub size={30} /></li>
                             <li className='p-3 text-black'><a href="#"></a><FiExternalLink size={30} /></li>
                         </ul>
